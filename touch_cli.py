@@ -1,7 +1,7 @@
 import json, os, sys
 from datetime import datetime
 
-TASKS_FILE = "tasts.json"
+TASKS_FILE = "tasks.json"
 
 def load_tasks():
     # Se o arquivo NÃO existir, retorna lista vazia
